@@ -9,19 +9,19 @@
 9        android:targetSdkVersion="34" />
 10
 11    <uses-permission android:name="android.permission.NFC" />
-11-->C:\Users\Ramzi\Desktop\nfc_emulator_app\android\app\src\main\AndroidManifest.xml:2:5-62
-11-->C:\Users\Ramzi\Desktop\nfc_emulator_app\android\app\src\main\AndroidManifest.xml:2:22-59
+11-->C:\Users\Ramzi\Desktop\host_card_emulator\android\app\src\main\AndroidManifest.xml:2:5-62
+11-->C:\Users\Ramzi\Desktop\host_card_emulator\android\app\src\main\AndroidManifest.xml:2:22-59
 12
 13    <uses-feature
-13-->C:\Users\Ramzi\Desktop\nfc_emulator_app\android\app\src\main\AndroidManifest.xml:3:5-81
+13-->C:\Users\Ramzi\Desktop\host_card_emulator\android\app\src\main\AndroidManifest.xml:3:5-81
 14        android:name="android.hardware.nfc"
-14-->C:\Users\Ramzi\Desktop\nfc_emulator_app\android\app\src\main\AndroidManifest.xml:3:19-54
+14-->C:\Users\Ramzi\Desktop\host_card_emulator\android\app\src\main\AndroidManifest.xml:3:19-54
 15        android:required="true" />
-15-->C:\Users\Ramzi\Desktop\nfc_emulator_app\android\app\src\main\AndroidManifest.xml:3:55-78
+15-->C:\Users\Ramzi\Desktop\host_card_emulator\android\app\src\main\AndroidManifest.xml:3:55-78
 16
 17    <uses-permission android:name="android.permission.NFC_TRANSACTION_EVENT" />
-17-->C:\Users\Ramzi\Desktop\nfc_emulator_app\android\app\src\main\AndroidManifest.xml:4:5-80
-17-->C:\Users\Ramzi\Desktop\nfc_emulator_app\android\app\src\main\AndroidManifest.xml:4:22-77
+17-->C:\Users\Ramzi\Desktop\host_card_emulator\android\app\src\main\AndroidManifest.xml:4:5-80
+17-->C:\Users\Ramzi\Desktop\host_card_emulator\android\app\src\main\AndroidManifest.xml:4:22-77
 18    <!--
 19         Required to query activities that can process text, see:
 20         https://developer.android.com/training/package-visibility and
@@ -30,16 +30,16 @@
 23         In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin.
 24    -->
 25    <queries>
-25-->C:\Users\Ramzi\Desktop\nfc_emulator_app\android\app\src\main\AndroidManifest.xml:53:5-58:15
+25-->C:\Users\Ramzi\Desktop\host_card_emulator\android\app\src\main\AndroidManifest.xml:53:5-58:15
 26        <intent>
-26-->C:\Users\Ramzi\Desktop\nfc_emulator_app\android\app\src\main\AndroidManifest.xml:54:9-57:18
+26-->C:\Users\Ramzi\Desktop\host_card_emulator\android\app\src\main\AndroidManifest.xml:54:9-57:18
 27            <action android:name="android.intent.action.PROCESS_TEXT" />
-27-->C:\Users\Ramzi\Desktop\nfc_emulator_app\android\app\src\main\AndroidManifest.xml:55:13-72
-27-->C:\Users\Ramzi\Desktop\nfc_emulator_app\android\app\src\main\AndroidManifest.xml:55:21-70
+27-->C:\Users\Ramzi\Desktop\host_card_emulator\android\app\src\main\AndroidManifest.xml:55:13-72
+27-->C:\Users\Ramzi\Desktop\host_card_emulator\android\app\src\main\AndroidManifest.xml:55:21-70
 28
 29            <data android:mimeType="text/plain" />
-29-->C:\Users\Ramzi\Desktop\nfc_emulator_app\android\app\src\main\AndroidManifest.xml:56:13-50
-29-->C:\Users\Ramzi\Desktop\nfc_emulator_app\android\app\src\main\AndroidManifest.xml:56:19-48
+29-->C:\Users\Ramzi\Desktop\host_card_emulator\android\app\src\main\AndroidManifest.xml:56:13-50
+29-->C:\Users\Ramzi\Desktop\host_card_emulator\android\app\src\main\AndroidManifest.xml:56:19-48
 30        </intent>
 31    </queries>
 32
@@ -56,32 +56,32 @@
 38
 39    <application
 40        android:name="android.app.Application"
-40-->C:\Users\Ramzi\Desktop\nfc_emulator_app\android\app\src\main\AndroidManifest.xml:7:9-42
+40-->C:\Users\Ramzi\Desktop\host_card_emulator\android\app\src\main\AndroidManifest.xml:7:9-42
 41        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 41-->[androidx.core:core:1.13.1] C:\Users\Ramzi\.gradle\caches\transforms-3\c666c258fca39b3353b46678a6b928ab\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
 42        android:extractNativeLibs="false"
 43        android:icon="@mipmap/ic_launcher"
-43-->C:\Users\Ramzi\Desktop\nfc_emulator_app\android\app\src\main\AndroidManifest.xml:8:9-43
+43-->C:\Users\Ramzi\Desktop\host_card_emulator\android\app\src\main\AndroidManifest.xml:8:9-43
 44        android:label="nfc_emulator_app" >
-44-->C:\Users\Ramzi\Desktop\nfc_emulator_app\android\app\src\main\AndroidManifest.xml:6:9-41
+44-->C:\Users\Ramzi\Desktop\host_card_emulator\android\app\src\main\AndroidManifest.xml:6:9-41
 45        <activity
-45-->C:\Users\Ramzi\Desktop\nfc_emulator_app\android\app\src\main\AndroidManifest.xml:9:9-30:20
+45-->C:\Users\Ramzi\Desktop\host_card_emulator\android\app\src\main\AndroidManifest.xml:9:9-30:20
 46            android:name="com.example.nfc_emulator_app.MainActivity"
-46-->C:\Users\Ramzi\Desktop\nfc_emulator_app\android\app\src\main\AndroidManifest.xml:10:13-41
+46-->C:\Users\Ramzi\Desktop\host_card_emulator\android\app\src\main\AndroidManifest.xml:10:13-41
 47            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-47-->C:\Users\Ramzi\Desktop\nfc_emulator_app\android\app\src\main\AndroidManifest.xml:15:13-163
+47-->C:\Users\Ramzi\Desktop\host_card_emulator\android\app\src\main\AndroidManifest.xml:15:13-163
 48            android:exported="true"
-48-->C:\Users\Ramzi\Desktop\nfc_emulator_app\android\app\src\main\AndroidManifest.xml:11:13-36
+48-->C:\Users\Ramzi\Desktop\host_card_emulator\android\app\src\main\AndroidManifest.xml:11:13-36
 49            android:hardwareAccelerated="true"
-49-->C:\Users\Ramzi\Desktop\nfc_emulator_app\android\app\src\main\AndroidManifest.xml:16:13-47
+49-->C:\Users\Ramzi\Desktop\host_card_emulator\android\app\src\main\AndroidManifest.xml:16:13-47
 50            android:launchMode="singleTop"
-50-->C:\Users\Ramzi\Desktop\nfc_emulator_app\android\app\src\main\AndroidManifest.xml:12:13-43
+50-->C:\Users\Ramzi\Desktop\host_card_emulator\android\app\src\main\AndroidManifest.xml:12:13-43
 51            android:taskAffinity=""
-51-->C:\Users\Ramzi\Desktop\nfc_emulator_app\android\app\src\main\AndroidManifest.xml:13:13-36
+51-->C:\Users\Ramzi\Desktop\host_card_emulator\android\app\src\main\AndroidManifest.xml:13:13-36
 52            android:theme="@style/LaunchTheme"
-52-->C:\Users\Ramzi\Desktop\nfc_emulator_app\android\app\src\main\AndroidManifest.xml:14:13-47
+52-->C:\Users\Ramzi\Desktop\host_card_emulator\android\app\src\main\AndroidManifest.xml:14:13-47
 53            android:windowSoftInputMode="adjustResize" >
-53-->C:\Users\Ramzi\Desktop\nfc_emulator_app\android\app\src\main\AndroidManifest.xml:17:13-55
+53-->C:\Users\Ramzi\Desktop\host_card_emulator\android\app\src\main\AndroidManifest.xml:17:13-55
 54
 55            <!--
 56                 Specifies an Android theme to apply to this Activity as soon as
@@ -90,21 +90,21 @@
 59                 to determine the Window background behind the Flutter UI.
 60            -->
 61            <meta-data
-61-->C:\Users\Ramzi\Desktop\nfc_emulator_app\android\app\src\main\AndroidManifest.xml:22:13-25:17
+61-->C:\Users\Ramzi\Desktop\host_card_emulator\android\app\src\main\AndroidManifest.xml:22:13-25:17
 62                android:name="io.flutter.embedding.android.NormalTheme"
-62-->C:\Users\Ramzi\Desktop\nfc_emulator_app\android\app\src\main\AndroidManifest.xml:23:15-70
+62-->C:\Users\Ramzi\Desktop\host_card_emulator\android\app\src\main\AndroidManifest.xml:23:15-70
 63                android:resource="@style/NormalTheme" />
-63-->C:\Users\Ramzi\Desktop\nfc_emulator_app\android\app\src\main\AndroidManifest.xml:24:15-52
+63-->C:\Users\Ramzi\Desktop\host_card_emulator\android\app\src\main\AndroidManifest.xml:24:15-52
 64
 65            <intent-filter>
-65-->C:\Users\Ramzi\Desktop\nfc_emulator_app\android\app\src\main\AndroidManifest.xml:26:13-29:29
+65-->C:\Users\Ramzi\Desktop\host_card_emulator\android\app\src\main\AndroidManifest.xml:26:13-29:29
 66                <action android:name="android.intent.action.MAIN" />
-66-->C:\Users\Ramzi\Desktop\nfc_emulator_app\android\app\src\main\AndroidManifest.xml:27:17-68
-66-->C:\Users\Ramzi\Desktop\nfc_emulator_app\android\app\src\main\AndroidManifest.xml:27:25-66
+66-->C:\Users\Ramzi\Desktop\host_card_emulator\android\app\src\main\AndroidManifest.xml:27:17-68
+66-->C:\Users\Ramzi\Desktop\host_card_emulator\android\app\src\main\AndroidManifest.xml:27:25-66
 67
 68                <category android:name="android.intent.category.LAUNCHER" />
-68-->C:\Users\Ramzi\Desktop\nfc_emulator_app\android\app\src\main\AndroidManifest.xml:28:17-76
-68-->C:\Users\Ramzi\Desktop\nfc_emulator_app\android\app\src\main\AndroidManifest.xml:28:27-74
+68-->C:\Users\Ramzi\Desktop\host_card_emulator\android\app\src\main\AndroidManifest.xml:28:17-76
+68-->C:\Users\Ramzi\Desktop\host_card_emulator\android\app\src\main\AndroidManifest.xml:28:27-74
 69            </intent-filter>
 70        </activity>
 71        <!--
@@ -112,33 +112,33 @@
 73             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
 74        -->
 75        <meta-data
-75-->C:\Users\Ramzi\Desktop\nfc_emulator_app\android\app\src\main\AndroidManifest.xml:33:9-35:33
+75-->C:\Users\Ramzi\Desktop\host_card_emulator\android\app\src\main\AndroidManifest.xml:33:9-35:33
 76            android:name="flutterEmbedding"
-76-->C:\Users\Ramzi\Desktop\nfc_emulator_app\android\app\src\main\AndroidManifest.xml:34:13-44
+76-->C:\Users\Ramzi\Desktop\host_card_emulator\android\app\src\main\AndroidManifest.xml:34:13-44
 77            android:value="2" />
-77-->C:\Users\Ramzi\Desktop\nfc_emulator_app\android\app\src\main\AndroidManifest.xml:35:13-30
+77-->C:\Users\Ramzi\Desktop\host_card_emulator\android\app\src\main\AndroidManifest.xml:35:13-30
 78
 79        <service
-79-->C:\Users\Ramzi\Desktop\nfc_emulator_app\android\app\src\main\AndroidManifest.xml:36:9-46:19
+79-->C:\Users\Ramzi\Desktop\host_card_emulator\android\app\src\main\AndroidManifest.xml:36:9-46:19
 80            android:name="com.example.nfc_emulator_app.MyHostApduService"
-80-->C:\Users\Ramzi\Desktop\nfc_emulator_app\android\app\src\main\AndroidManifest.xml:37:17-50
+80-->C:\Users\Ramzi\Desktop\host_card_emulator\android\app\src\main\AndroidManifest.xml:37:17-50
 81            android:exported="true"
-81-->C:\Users\Ramzi\Desktop\nfc_emulator_app\android\app\src\main\AndroidManifest.xml:38:17-40
+81-->C:\Users\Ramzi\Desktop\host_card_emulator\android\app\src\main\AndroidManifest.xml:38:17-40
 82            android:permission="android.permission.BIND_NFC_SERVICE" >
-82-->C:\Users\Ramzi\Desktop\nfc_emulator_app\android\app\src\main\AndroidManifest.xml:39:17-73
+82-->C:\Users\Ramzi\Desktop\host_card_emulator\android\app\src\main\AndroidManifest.xml:39:17-73
 83            <intent-filter>
-83-->C:\Users\Ramzi\Desktop\nfc_emulator_app\android\app\src\main\AndroidManifest.xml:40:13-42:29
+83-->C:\Users\Ramzi\Desktop\host_card_emulator\android\app\src\main\AndroidManifest.xml:40:13-42:29
 84                <action android:name="android.nfc.cardemulation.action.HOST_APDU_SERVICE" />
-84-->C:\Users\Ramzi\Desktop\nfc_emulator_app\android\app\src\main\AndroidManifest.xml:41:17-93
-84-->C:\Users\Ramzi\Desktop\nfc_emulator_app\android\app\src\main\AndroidManifest.xml:41:25-90
+84-->C:\Users\Ramzi\Desktop\host_card_emulator\android\app\src\main\AndroidManifest.xml:41:17-93
+84-->C:\Users\Ramzi\Desktop\host_card_emulator\android\app\src\main\AndroidManifest.xml:41:25-90
 85            </intent-filter>
 86
 87            <meta-data
-87-->C:\Users\Ramzi\Desktop\nfc_emulator_app\android\app\src\main\AndroidManifest.xml:43:13-45:59
+87-->C:\Users\Ramzi\Desktop\host_card_emulator\android\app\src\main\AndroidManifest.xml:43:13-45:59
 88                android:name="android.nfc.cardemulation.host_apdu_service"
-88-->C:\Users\Ramzi\Desktop\nfc_emulator_app\android\app\src\main\AndroidManifest.xml:44:21-79
+88-->C:\Users\Ramzi\Desktop\host_card_emulator\android\app\src\main\AndroidManifest.xml:44:21-79
 89                android:resource="@xml/apduservice" />
-89-->C:\Users\Ramzi\Desktop\nfc_emulator_app\android\app\src\main\AndroidManifest.xml:45:21-56
+89-->C:\Users\Ramzi\Desktop\host_card_emulator\android\app\src\main\AndroidManifest.xml:45:21-56
 90        </service>
 91
 92        <uses-library

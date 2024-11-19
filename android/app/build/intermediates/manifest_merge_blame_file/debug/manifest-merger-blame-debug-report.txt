@@ -13,22 +13,22 @@
 13         to allow setting breakpoints, to provide hot reload, etc.
 14    -->
 15    <uses-permission android:name="android.permission.INTERNET" />
-15-->C:\Users\Ramzi\Desktop\nfc_emulator_app\android\app\src\debug\AndroidManifest.xml:6:5-66
-15-->C:\Users\Ramzi\Desktop\nfc_emulator_app\android\app\src\debug\AndroidManifest.xml:6:22-64
+15-->C:\Users\Ramzi\Desktop\host_card_emulator\android\app\src\debug\AndroidManifest.xml:6:5-66
+15-->C:\Users\Ramzi\Desktop\host_card_emulator\android\app\src\debug\AndroidManifest.xml:6:22-64
 16    <uses-permission android:name="android.permission.NFC" />
-16-->C:\Users\Ramzi\Desktop\nfc_emulator_app\android\app\src\main\AndroidManifest.xml:2:5-62
-16-->C:\Users\Ramzi\Desktop\nfc_emulator_app\android\app\src\main\AndroidManifest.xml:2:22-59
+16-->C:\Users\Ramzi\Desktop\host_card_emulator\android\app\src\main\AndroidManifest.xml:2:5-62
+16-->C:\Users\Ramzi\Desktop\host_card_emulator\android\app\src\main\AndroidManifest.xml:2:22-59
 17
 18    <uses-feature
-18-->C:\Users\Ramzi\Desktop\nfc_emulator_app\android\app\src\main\AndroidManifest.xml:3:5-81
+18-->C:\Users\Ramzi\Desktop\host_card_emulator\android\app\src\main\AndroidManifest.xml:3:5-81
 19        android:name="android.hardware.nfc"
-19-->C:\Users\Ramzi\Desktop\nfc_emulator_app\android\app\src\main\AndroidManifest.xml:3:19-54
+19-->C:\Users\Ramzi\Desktop\host_card_emulator\android\app\src\main\AndroidManifest.xml:3:19-54
 20        android:required="true" />
-20-->C:\Users\Ramzi\Desktop\nfc_emulator_app\android\app\src\main\AndroidManifest.xml:3:55-78
+20-->C:\Users\Ramzi\Desktop\host_card_emulator\android\app\src\main\AndroidManifest.xml:3:55-78
 21
 22    <uses-permission android:name="android.permission.NFC_TRANSACTION_EVENT" />
-22-->C:\Users\Ramzi\Desktop\nfc_emulator_app\android\app\src\main\AndroidManifest.xml:4:5-80
-22-->C:\Users\Ramzi\Desktop\nfc_emulator_app\android\app\src\main\AndroidManifest.xml:4:22-77
+22-->C:\Users\Ramzi\Desktop\host_card_emulator\android\app\src\main\AndroidManifest.xml:4:5-80
+22-->C:\Users\Ramzi\Desktop\host_card_emulator\android\app\src\main\AndroidManifest.xml:4:22-77
 23    <!--
 24 Required to query activities that can process text, see:
 25         https://developer.android.com/training/package-visibility and
@@ -37,16 +37,16 @@
 28         In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin.
 29    -->
 30    <queries>
-30-->C:\Users\Ramzi\Desktop\nfc_emulator_app\android\app\src\main\AndroidManifest.xml:53:5-58:15
+30-->C:\Users\Ramzi\Desktop\host_card_emulator\android\app\src\main\AndroidManifest.xml:53:5-58:15
 31        <intent>
-31-->C:\Users\Ramzi\Desktop\nfc_emulator_app\android\app\src\main\AndroidManifest.xml:54:9-57:18
+31-->C:\Users\Ramzi\Desktop\host_card_emulator\android\app\src\main\AndroidManifest.xml:54:9-57:18
 32            <action android:name="android.intent.action.PROCESS_TEXT" />
-32-->C:\Users\Ramzi\Desktop\nfc_emulator_app\android\app\src\main\AndroidManifest.xml:55:13-72
-32-->C:\Users\Ramzi\Desktop\nfc_emulator_app\android\app\src\main\AndroidManifest.xml:55:21-70
+32-->C:\Users\Ramzi\Desktop\host_card_emulator\android\app\src\main\AndroidManifest.xml:55:13-72
+32-->C:\Users\Ramzi\Desktop\host_card_emulator\android\app\src\main\AndroidManifest.xml:55:21-70
 33
 34            <data android:mimeType="text/plain" />
-34-->C:\Users\Ramzi\Desktop\nfc_emulator_app\android\app\src\main\AndroidManifest.xml:56:13-50
-34-->C:\Users\Ramzi\Desktop\nfc_emulator_app\android\app\src\main\AndroidManifest.xml:56:19-48
+34-->C:\Users\Ramzi\Desktop\host_card_emulator\android\app\src\main\AndroidManifest.xml:56:13-50
+34-->C:\Users\Ramzi\Desktop\host_card_emulator\android\app\src\main\AndroidManifest.xml:56:19-48
 35        </intent>
 36    </queries>
 37

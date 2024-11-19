@@ -4,7 +4,7 @@
             "outputFile": "com.example.nfc_emulator_app-mergeReleaseResources-23:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Ramzi\\Desktop\\nfc_emulator_app\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "source": "C:\\Users\\Ramzi\\Desktop\\host_card_emulator\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
